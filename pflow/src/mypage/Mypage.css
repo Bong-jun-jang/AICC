@@ -1,0 +1,121 @@
+.Mypage {
+    display: flex;
+    flex-direction: row; /* 자식 요소들을 수평으로 나란히 배치 */
+    align-items: flex-start; /* 자식 요소들을 부모의 상단에 정렬 */
+    margin-top: 180px;
+    height: 80%;
+    width: 100%; 
+    backdrop-filter: blur(5px);
+}
+
+.my-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    width: 100%;
+    height: auto;
+}
+
+.mypage-active {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row; /* 자식 요소들을 수평으로 나란히 배치 */
+}
+
+.mypage-headline {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-bottom: solid 2px #333;
+    width: 60%;
+}
+
+/*----------Myactive css--------------------------------------------------------------------------*/
+
+.Myactive {
+    display: flex;
+    flex-direction: row; /* 자식 요소들을 수평으로 나란히 배치 */
+    align-items: flex-start; /* 자식 요소들을 부모의 상단에 정렬 */
+    margin-top: 180px;
+    height: 80%;
+    width: 100%; 
+    backdrop-filter: blur(5px);
+}
+
+.myactive-saction {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    width: 100%;
+    height: auto;
+}
+
+.myactive-tb {
+    height: auto;
+    padding: 5px;
+    width: 60%; /* 테이블 너비를 100%로 설정 (필요에 따라 조정) */
+    border-collapse: collapse; /* 셀 간의 경계선을 합칩니다 */
+    border-spacing: 0; /* 셀 간의 간격을 없앱니다 */
+}
+
+.myactive-tb th {
+    border-top: 2px solid #000; /* 검은색 실선 테두리 */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2); /* 연한 테두리 */
+    padding: 15px;
+}
+
+.myactive-tb td {
+    border-top: 2px solid #000; /* 검은색 실선 테두리 */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2); /* 연한 테두리 */
+    text-align: center;
+    padding: 10px;
+
+}
+
+.post-td {
+ width: 50%;
+}
+
+.select-tag {
+ width: 60%;
+ margin-top: 40px;
+ margin-bottom: 20px;
+}
+
+.myactive-category-btn {
+font-size: 14pt;
+border: none;
+background-color: aliceblue;
+}
+/*----------MyReusme css--------------------------------------------------------------------------*/
+
+.MyReusme {
+    display: flex;
+    flex-direction: row; /* 자식 요소들을 수평으로 나란히 배치 */
+    align-items: flex-start; /* 자식 요소들을 부모의 상단에 정렬 */
+    margin-top: 180px;
+    height: 80%;
+    width: 100%; 
+    backdrop-filter: blur(5px);
+}
+
+.ul-resume {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+
+.li-resume {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fef6f6;
+    border: solid 1px #333;
+    width: 220px;
+    height: 220px;
+}
+

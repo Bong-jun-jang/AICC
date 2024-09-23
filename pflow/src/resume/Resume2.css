@@ -1,0 +1,170 @@
+
+/* 최상위 */
+
+.container {
+  margin-top: 130px; /* 필요한 경우 여백 유지 */
+  width: 100%;
+  height: 100%; /* 부모 요소의 높이를 화면 크기에 맞게 설정 */
+  display: flex;
+  align-items: center; /* 세로축 가운데 정렬 */
+  flex-direction: column; /* 자식 요소를 수직으로 정렬 */
+}
+
+
+.progress-div {
+    width: 60%;
+}
+
+
+
+/*-----reume2---------------------------------------------------------------------*/
+.form-2 {
+  background-color: #fff;
+  padding: 20px;
+  border-top: solid 1px #333; /* 그림자 효과 */
+  border-bottom: solid 1px #333; /* 그림자 효과 */
+  width: 60%;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.univ-section {
+  display: flex; /* Flexbox로 수평 배치 활성화 */
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  height: 400px;
+  padding-bottom: 60px;
+}
+
+.academic-section {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.univ-period {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap:15px;
+}
+
+.academic-info {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+  
+.univ-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap:15px;
+}
+
+.acdemic_period {
+  display: flex;
+ justify-content: space-between;
+}
+
+.eud-sub-title {
+margin-bottom: 40px;
+}
+
+.resume-guide {
+  font-size: 9pt;
+  color: red;
+  margin-bottom: 30px;
+}
+
+/*-------------------input 속성 css---------------------*/
+
+.input-period {
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.input-period:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}
+
+.input-graduate {
+  width: 100px;
+  border: none;
+  height: 40px;
+  border-radius: 0px;
+}
+
+
+.input-univ {
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.input-univ:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}
+
+.input-major {
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.input-major:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}
+
+/*-----------------------------*/
+
+.input-academic {
+  width: 400px;
+  height: 40px;
+  border: none;
+  margin-right: 12%;
+}
+
+.input-academic:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}
+
+.input-description {
+  width: 80%;
+  height: 40px;
+  border: none;
+}
+
+.input-description:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}
+
+.input-s-date {
+  border: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.input-s-date:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}
+
+.input-e-date {
+  border: none;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.input-e-date:focus {
+  border: solid 1px #6FABFA;
+  border-radius: 5px;
+}

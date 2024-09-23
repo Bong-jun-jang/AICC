@@ -1,0 +1,72 @@
+
+/* 최상위 */
+
+.container {
+  margin-top: 130px; /* 필요한 경우 여백 유지 */
+  width: 100%;
+  height: 100%; /* 부모 요소의 높이를 화면 크기에 맞게 설정 */
+  display: flex;
+  align-items: center; /* 세로축 가운데 정렬 */
+  flex-direction: column; /* 자식 요소를 수직으로 정렬 */
+}
+
+
+.progress-div {
+    width: 60%;
+}
+
+
+
+/*-----resume4---------------------------------------------------------------------*/
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-top: solid 1px #333; 
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.intro-section {
+  width: 100%;
+  height: 500px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section {
+  width: 100%;
+  height: 80px;
+ 
+}
+
+.textarea-section {
+  width: 100%;
+
+}
+
+
+/*-------input css----------------------------------------------------*/
+
+.input-title {
+  margin: 20px;
+  padding: 20px;
+  width: 95%;
+  background-color:aliceblue;
+  border: none;
+}
+
+.input-intro {
+  margin: 20px;
+  padding: 20px;
+  width: 95%;
+  height: 200px;
+  background-color:aliceblue;
+  border-top: solid 1px #333;
+  border: none;
+  resize: none;
+}

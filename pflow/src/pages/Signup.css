@@ -1,0 +1,156 @@
+/*---------------------Sign-up-----------------------------------------*/
+
+.sign-up {
+    display: flex;
+    flex-direction: column; /* 자식 요소를 세로로 나열 */
+    align-items: center;     /* 수직 중앙 정렬 */
+    width: 100%;
+    height: 100%;
+    margin-top: 180px;  
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column; /* 자식 요소를 세로로 나열 */
+    align-items: left;     /* 수직 중앙 정렬 */
+    background-color: #fff;
+    padding: 30px 30px 30px 15%;
+    border-radius: 10px; /* 모서리 둥글게 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    min-width: 600PX;
+    height: 800px;
+    position: relative; /* 폼 위치 조정 */
+}
+
+.email-section {
+    display: flex;        /* Flexbox 레이아웃 사용 */
+    gap: 10px;            /* 자식 요소 간의 간격 */
+}
+
+.pw-section {
+    display: flex;
+    margin-right: 90px;
+}
+
+.userinfo-section {
+    display: flex;        /* Flexbox 레이아웃 사용 */
+    gap: 10px;            /* 자식 요소 간의 간격 */
+}
+
+.address-section {
+    display: flex;        /* Flexbox 레이아웃 사용 */
+    gap: 10px; 
+}
+
+/*--inpit css-----------------------------------------------------------------------------*/
+
+
+.signup-input {
+    margin: 5px 0 10px 0;
+    padding: 0 10px 0 10px;
+    width: 300px;
+   height: 40px;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   border-radius: 5px; /* 모서리 둥글게 */
+   display: block; /* input을 블록 요소로 만듦 */
+ 
+}
+
+.signup-input:focus {
+    border: 2px solid #B8D7FF;
+}
+
+.phone-input {
+    margin: 5px 0 10px 0;
+    padding: 0 10px 0 10px;
+    width: 250px;
+   height: 40px;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   border-radius: 5px; /* 모서리 둥글게 */
+   display: block; /* input을 블록 요소로 만듦 */
+}
+
+.phone-input:focus {
+    border: 2px solid #B8D7FF;
+}
+
+.url-input {
+    margin: 5px 0 10px 0;
+    padding: 0 10px 0 10px;
+    width: 410px;
+   height: 40px;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   border-radius: 5px; /* 모서리 둥글게 */
+   display: block; /* input을 블록 요소로 만듦 */
+}
+
+.name-input {
+    margin: 5px 0 10px 0;
+    padding: 0 10px 0 10px;
+    width: 300px;
+   height: 40px;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   border-radius: 5px; /* 모서리 둥글게 */
+   display: block; /* input을 블록 요소로 만듦 */
+}
+
+.gender-input {
+    border: none;
+}
+.birthdate-input {
+    margin: 5px 0 10px 0;
+    padding: 0 10px 0 10px;
+    width: 150px;
+   height: 40px;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   border-radius: 5px; /* 모서리 둥글게 */
+   display: block; /* input을 블록 요소로 만듦 */
+}
+
+.address-input {
+    margin: 5px 0 10px 0;
+    padding: 0 10px 0 10px;
+    width: 200px;
+   height: 40px;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   border-radius: 5px; /* 모서리 둥글게 */
+   display: block; /* input을 블록 요소로 만듦 */
+}
+/*-----button------------------------------------------------------------------------------------- */
+
+.email-chk-btn {
+    margin-top: 25px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+.code-btn {
+
+    width: 410px;
+    height: 50px;
+    border-radius: 5px; /* 모서리 둥글게 */
+    border: none;
+    background-color: #0554f2;
+    color: white;
+    font-size: 12pt;
+}
+
+.signup-btn {
+    margin-top: 60px;
+    width: 410px;
+    height: 50px;
+    border-radius: 5px; /* 모서리 둥글게 */
+    background-color: #0554f2;
+    border: none;
+    color: white;
+}
+
+.email-section-line {
+    border-top: 1px solid #ccc; /* 연한 회색의 수평선 */
+    margin: 30px; /* 수직 여백 */
+    width: 60%; /* 전체 너비 */
+}

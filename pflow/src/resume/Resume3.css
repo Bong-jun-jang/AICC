@@ -1,0 +1,90 @@
+
+/* 최상위 */
+
+.container {
+  margin-top: 130px; /* 필요한 경우 여백 유지 */
+  width: 100%;
+  height: 100%; /* 부모 요소의 높이를 화면 크기에 맞게 설정 */
+  display: flex;
+  align-items: center; /* 세로축 가운데 정렬 */
+  flex-direction: column; /* 자식 요소를 수직으로 정렬 */
+}
+
+
+.progress-div {
+    width: 60%;
+}
+
+
+
+/*-----reume3---------------------------------------------------------------------*/
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-top: solid 1px #333; 
+  border-bottom: solid 1px #333;
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.career-section {
+  display: flex; /* Flexbox로 수평 배치 활성화 */
+  width: 100%;
+  border-top: solid 1px #ccc;
+  height: auto;
+  padding-bottom: 60px;
+  gap: 30px;
+}
+
+.career-period {
+  padding-top: 60px;
+  width: 40%;
+
+}
+
+.career-company {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  
+}
+
+
+/*--------input----------------------------*/
+
+.input-company {
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.input-role {
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+
+
+/*------------btn--------------------------*/
+
+
+.add-career-btn {
+  margin-bottom: 20px;
+  width: 100px;
+  border: none;
+  background-color: white;
+  color: #0554f2;
+}
+
+.del-career-btn {
+  margin-top: 45px;
+  width: 30px;
+  height: 30px;
+  border: none;
+}

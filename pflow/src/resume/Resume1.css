@@ -1,0 +1,126 @@
+
+/* 최상위 */
+
+.container {
+  margin-top: 130px; /* 필요한 경우 여백 유지 */
+  width: 100%;
+  height: 100%; /* 부모 요소의 높이를 화면 크기에 맞게 설정 */
+  display: flex;
+  align-items: center; /* 세로축 가운데 정렬 */
+  flex-direction: column; /* 자식 요소를 수직으로 정렬 */
+}
+
+
+.progress-div {
+    width: 60%;
+}
+
+/*-------------------------------------------------------------------------------------- */
+
+.form-1 {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  border-top: solid 1px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  width: 60%;
+  height: 630px;
+  text-align: center;
+}
+
+
+/* resume1 기본정보 작성 페이지 */
+.resume-title {
+margin-bottom: 30px;
+}
+
+.skills {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    width: 100%;
+    height: 100%;
+}
+
+.add-skill-section {
+  margin-top: 100px;
+    display: flex; /* Flexbox를 사용하여 자식 요소들을 정렬합니다 */
+    flex-direction: column; /* 자식 요소들을 수직으로 정렬합니다 */
+    align-items: center; /* 자식 요소들을 가로축 가운데 정렬합니다 */
+    width: 500px;
+    height: 100%;
+  
+}
+
+.skill-input {
+   margin: 5px 0 10px 0;
+   padding: 0 10px 0 10px;
+   width: 400px;
+   height: 60px;
+   border: 1px solid #ccc;
+   border-radius: 10px; /* 모서리 둥글게 */
+   display: block;
+}
+
+.add-skill-btn {
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px; /* 모서리 둥글게 */
+  background-color: #0554f2;
+  border: none;
+  color: white;
+}
+
+.warn {
+ font-size: 9pt;
+  color: red;
+}
+
+.next-btn {
+   font-size: 20pt;
+    margin-top: 5%;
+    margin-left: 55%;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.del-skill-btn {
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+  color: #333;
+ 
+  
+  border: none;
+}
+
+.skill-list {
+  padding: 20px;
+  width: 40%;
+  height: 100%;
+  list-style: none;
+ 
+ 
+}
+
+.skill-ul {
+  display: flex;
+  justify-content: center; /* 자식 요소들을 가로 중앙 정렬 */
+}
+
+.my-skill {
+  margin-top: 10px;
+ padding: 20px;
+ width: auto;
+ min-width: 80px;
+ height: 65px;
+ background-color: #6FABFA;
+ color: white;
+ border-radius: 60px;
+ text-align: left;
+ 
+}
+
+/*-----reume2---------------------------------------------------------------------*/
+
+  
