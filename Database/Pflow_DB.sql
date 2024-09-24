@@ -85,17 +85,6 @@ CREATE TABLE `career` (
     FOREIGN KEY (resume_id) REFERENCES resume(resume_id) ON DELETE CASCADE
 );
 
--- CREATE TABLE `certification` (
--- 	`certification_id` int NOT NULL COMMENT '작성한 자격증의 고유 번호',
---     `resume_id` int NOT NULL,
--- 	`certification_date` date NOT NULL,
--- 	`certification_name` varchar(20) NOT NULL COMMENT 'ex) 정보처리기사, 빅데이터분석기사',
--- 	`certification_number` varchar(20) NULL COMMENT '자격증 번호',
--- 	`certification_center` varchar(15) NOT NULL COMMENT 'ex) 한국산업인력공단, 한국전력공사, 한국정보화진흥원',
--- 	PRIMARY KEY (certification_id, resume_id),
---     FOREIGN KEY (resume_id) REFERENCES resume(resume_id) ON DELETE CASCADE
--- );
-
 CREATE TABLE `training` (
 	`training_id` int NOT NULL COMMENT '작성한 교육이수의 고유 번호' AUTO_INCREMENT,
     `resume_id` int NOT NULL,
@@ -131,6 +120,16 @@ CREATE TABLE `user_info` (
 );
 
 
+-- CREATE TABLE `certification` (
+-- 	`certification_id` int NOT NULL COMMENT '작성한 자격증의 고유 번호',
+--     `resume_id` int NOT NULL,
+-- 	`certification_date` date NOT NULL,
+-- 	`certification_name` varchar(20) NOT NULL COMMENT 'ex) 정보처리기사, 빅데이터분석기사',
+-- 	`certification_number` varchar(20) NULL COMMENT '자격증 번호',
+-- 	`certification_center` varchar(15) NOT NULL COMMENT 'ex) 한국산업인력공단, 한국전력공사, 한국정보화진흥원',
+-- 	PRIMARY KEY (certification_id, resume_id),
+--     FOREIGN KEY (resume_id) REFERENCES resume(resume_id) ON DELETE CASCADE
+-- );
 
 
 -- 회사 추천 DB 설계는 나중에 생각

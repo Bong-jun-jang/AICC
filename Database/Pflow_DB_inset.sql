@@ -37,25 +37,20 @@ VALUES
 ('첫 자소서', '성실하게 임하겠습니다.'),
 ('경력직 자소서', '이전 회사에서의 경험을 살리겠습니다.');
 
-INSERT INTO `resume` (`photo`, `resume_email`, `education_id`, `letter_id`, `user_id`) 
+INSERT INTO `resume` (`photo`, `education_id`, `letter_id`, `user_id`) 
 VALUES 
-('photo1.jpg', 'resume1@example.com', 1, 1, 1),
-('photo2.jpg', 'resume2@example.com', 2, 2, 2);
+('photo1.jpg', 1, 1, 1),
+('photo2.jpg', 2, 2, 2);
 
 INSERT INTO `career` (`career_id`, `resume_id`, `career_name`, `career_start`, `career_end`, `career_work`, `career_position`) 
 VALUES 
 (1, 1, 'ABC Corp', '2015-03-01', '2020-02-28', '프로젝트 관리', '과장'),
 (2, 2, 'XYZ Corp', '2016-05-01', '2021-04-30', '데이터 분석', '대리');
 
-INSERT INTO `certification` (`certification_id`, `resume_id`, `certification_date`, `certification_name`, `certification_number`, `certification_center`) 
+INSERT INTO `training` (`resume_id`, `training_name`, `training_center`, `training_start`, `training_end`) 
 VALUES 
-(1, 1, '2019-06-01', '정보처리기사', '12345', '한국산업인력공단'),
-(2, 2, '2020-11-20', '빅데이터분석기사', '67890', '한국정보화진흥원');
-
-INSERT INTO `training` (`training_id`, `resume_id`, `training_name`, `training_center`, `training_start`, `training_end`, `training_program`) 
-VALUES 
-(1, 1, '부트캠프', '코드랩 아카데미', '2021-01-15', '2021-06-15', 'K 인증 프로그램'),
-(2, 2, '빅데이터 교육', '빅데이터 연구소', '2020-05-01', '2020-12-01', '빅데이터 전문가 과정');
+(1, '부트캠프', '코드랩 아카데미', '2021-01-15', '2021-06-15'),
+(2, '빅데이터 교육', '빅데이터 연구소', '2020-05-01', '2020-12-01');
 
 INSERT INTO `skill` (`skill_id`, `resume_id`, `skill_name`) 
 VALUES 
